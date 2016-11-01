@@ -1,0 +1,25 @@
+// This is the top-level scss file. Import all other files in here.
+@import 'home';
+
+
+.wrapper {
+  margin-top: 16px;
+}
+
+aside {
+  width: 30%;
+  min-width: 200px;
+  padding: 0 16px;
+  position: absolute; left: 0;
+}
+main {
+  width: 70%;
+  max-width: 500px;
+  padding: 0 16px;
+  position: absolute; left: 30%;
+}
+
+.contact-image {
+  max-width: 60px;
+  position: absolute; right: 16px;
+}
